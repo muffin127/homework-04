@@ -333,7 +333,14 @@ ul {
   align-items: center;
 
   border-radius: 50%;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
+}
+
+.icon-link:hover {
+  background-color: var(--OCEAN, #404bbf);
+}
+.footer-link:hover {
+  background-color: var(--GREEN, #31d0aa);
 }
 
 .icon {
