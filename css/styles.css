@@ -336,10 +336,13 @@ ul {
   background-color: #4d5ae5;
 }
 
-.icon-link:hover {
+.icon-link:hover,
+.icon-link:focus {
   background-color: var(--OCEAN, #404bbf);
 }
-.footer-link:hover {
+
+.footer-link:hover,
+.footer-link:focus {
   background-color: var(--GREEN, #31d0aa);
 }
 
